@@ -10,6 +10,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .heroImage{
@@ -24,6 +25,7 @@ body, html {
   flex-direction: row-reverse;
   justify-content: center;
   margin-top: 4rem;
+  
   /* align-items: center; */
   /* z-index:0; */
 }
@@ -34,28 +36,25 @@ body, html {
       text-3xl
       font-extrabold
       text-amber-50
+      cursor-pointer
   }
-  .headingBody{
-    @apply
-      text-5xl
-      font-semibold
-      
-  }
+ 
   .buttonOrange{
     @apply
       bg-amber-600
       text-lg
-      text-gray-800
+      text-gray-700
       p-2
       rounded-md
+      border-none
       w-5/11
       font-bold
-      hover:bg-amber-50
+      hover:bg-gray-700
       hover:text-amber-600
   }
   .buttonGray{
     @apply
-      bg-gray-800
+      bg-gray-700
       text-lg
       text-amber-50
       p-2

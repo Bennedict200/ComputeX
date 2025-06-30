@@ -10,13 +10,13 @@ export default function NavSection() {
             <div className="w-1/6">
               <ul className="flex flex-row justify-between p-2">
                 <li>
-                  <a className="font-bold text-amber-50">About</a>
+                  <a className="font-bold text-amber-50 cursor-pointer">About</a>
                 </li>
                 <li>
-                  <a className="font-bold text-amber-50">Blog</a>
+                  <a className="font-bold text-amber-50 cursor-pointer">Blog</a>
                 </li>
                 <li>
-                  <a className="font-bold text-amber-50">Contact</a>
+                  <a className="font-bold text-amber-50 cursor-pointer">Contact</a>
                 </li>
               </ul>
             </div>
