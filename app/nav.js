@@ -5,7 +5,7 @@ export default function NavSection() {
     <header className="fixed top-2 z-1 p-3 w-full bg-gray-800">
         <div className="w-full flex flex-row justify-between">
             <div>
-                <span className="w_logo">ComputeX</span>
+                <a href="/" className="w_logo">ComputeX</a>
             </div>
             <div className="w-1/6">
               <ul className="flex flex-row justify-between p-2">
@@ -13,7 +13,7 @@ export default function NavSection() {
                   <a className="font-bold text-amber-50 cursor-pointer">About</a>
                 </li>
                 <li>
-                  <a className="font-bold text-amber-50 cursor-pointer">Blog</a>
+                  <a href="/blog" className="font-bold text-amber-50 cursor-pointer">Blog</a>
                 </li>
                 <li>
                   <a className="font-bold text-amber-50 cursor-pointer">Contact</a>

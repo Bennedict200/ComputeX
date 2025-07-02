@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import { getAllPosts } from '../lib/posts';
+import { getAllPosts } from '@/lib/posts';
 
 const Blog = () => {
   const posts = getAllPosts();
   return (
-    <div>
-        <div className="w-full flex flex-col justify-center p-5 bg-amber-100">
+    
+        <div className="w-full flex flex-col justify-center p-5 bg-amber-100 mt-15">
                 <div className="flex flex-row p-1">
 
                   {/* heading div */}
@@ -26,17 +26,9 @@ const Blog = () => {
                             ))}
                           </ul>
                         </div>
-
                     </div>
-                    
-                      
-                    
-                   
-                
                 </div>
-                
-            </div>
-    </div>
+        </div>
   )
 }
 

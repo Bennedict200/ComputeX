@@ -1,4 +1,7 @@
 import Image from "next/image";
+import About from "./about";
+import Blog from "./Blog";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -19,8 +22,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+        <About/>
+        <Blog/>
+        <Contact/>
     </div>
     // ------------------------------------------------------About section-----------------------------------------------------------------------
-    
   );
 }
